@@ -1,0 +1,694 @@
+@charset "utf-8";
+/*头部*/
+.public-header .header-top{
+	width: 7.5rem;
+	height: 0.9rem;
+	background: #f0f0f0;
+	line-height:0.7rem;
+	position: relative;
+	margin:0 auto;
+}
+.public-header .header-top .logo{
+	margin-left:0.2rem;
+}
+.public-header .header-top img{
+	height:0.5rem;
+}
+.public-header .header-top .right{
+	position: absolute;
+	right:0rem;
+	top:0rem;
+	margin-right: 0.16rem;
+}
+.public-header .header-top .right #phone{
+	margin-right: 0.4rem;
+}
+.public-header .header-top .right #setting{
+	margin-right: 0.2rem;
+}
+.public-header .header-top .right #close{
+	margin-right: 2.3rem;
+}
+.public-header .public-banner{
+	width: 7.5rem;
+	height: 3.01rem;
+	margin: 0 auto;
+	font-size: 0.24rem;
+}
+.public-header .public-banner img{ 
+	width: 7.5rem;
+	height: 3.01rem;
+}
+/*侧边栏*/
+.aside{
+	width:2.5rem;
+	height:100%;
+	position: fixed;
+	right: -3rem;
+	top:0;
+	z-index: 999;
+	background: #242e30;
+	text-align: center;
+}
+.aside li{
+	height:0.6rem;
+	line-height: 0.6rem;
+	border-bottom: 2px solid #7c8283;
+}
+.aside li a{
+	font-size:0.3rem ;
+	color: #fff;
+	text-align: center;
+}
+/*自动播放*/
+.autoplay{
+	width:6.18rem;
+	position: fixed;
+	left:50%;
+	top:50%;
+	margin-left:-3.09rem;
+	margin-top: -2.46rem;
+	z-index: 999;
+} 
+.autoplay img{
+	width:6.18rem;
+}
+.autoplay img:last-child{
+	width:0.54rem;
+	position:absolute;
+
+	top:-0.27rem;
+	right: -0.27rem;
+}
+/*所有内容的外包裹*/
+.slide_left {
+    position: relative;
+    width: 7.5rem;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    margin: 0 auto;
+}
+/*头部导航*/
+.public-nav{
+	width:7.5rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+.public-nav .nav{
+	font-size:0.28rem;
+	text-align:center;
+}
+.public-nav .nav img{
+	width:0.9rem;
+	height:0.9rem;
+	margin-bottom: 0.1rem;
+}
+.public-nav .nav a{
+	color:#000;
+}
+/*留学头条*/
+.index-content .news-wrapper{
+	width: 7.1rem;
+    height: 0.4rem;
+    margin: 0 auto;
+    padding: 0.3rem 0.2rem;
+    overflow: hidden;
+}
+
+.index-content .news-wrapper  img{
+	width: 1.48rem;
+    height: 0.35rem;
+    float: left;
+	
+}
+.index-content .news-wrapper  ul{
+	width: 5rem;
+    height: 0.4rem;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+    margin: 0 auto;
+    margin-left: 0.2rem;
+}
+.index-content .news-wrapper li{
+	width: 5rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    overflow: hidden;
+}
+.index-content .news-wrapper .news a{
+	color:#000;
+	font-size:0.28rem;
+	
+	margin-left: 0.1rem;
+}
+/*我是高中生  广告*/
+.index-content .ads{
+	width:7.5rem;
+	height:4.03rem;
+	margin: 0 auto;
+	background: #F5F5F5;
+	color:#fff;
+	border-top: ;
+	border-top: 0.3rem solid #F5F5F5;;
+	border-bottom: 0.3rem solid #F5F5F5;;
+}
+.index-content .ads .ads-top,.ads-bottom{
+	display:flex;
+	justify-content: space-between;
+	
+}
+.index-content .ads .ads-bottom{
+	margin-top: 0.25rem;
+}
+.index-content .ads #ad0{
+	width:2.38rem;
+	height: 2.2rem;
+	background:url(../images/bg-block-1.jpg);
+	background-size:2.38rem 2.2rem;
+}
+.index-content .ads #ad1{
+	width:2.38rem;
+	height: 2.2rem;
+	background:url(../images/bg-block-2.jpg);
+	background-size:2.38rem 2.2rem;
+}
+.index-content .ads #ad2{
+	width:2.38rem;
+	height: 2.2rem;
+	background:url(../images/bg-block-3.jpg);
+	background-size:2.38rem 2.2rem;
+}
+.index-content .ads #ad3{
+	width:3.66rem;
+	height: 1.55rem;
+	background:url(../images/bg-block-4.jpg);
+	background-size:3.66rem 1.55rem;
+	
+}
+.index-content .ads #ad4{
+	width:3.66rem;
+	height: 1.55rem;
+	background:url(../images/bg-block-5.jpg);
+	background-size:3.66rem 1.55rem;
+}
+.index-content .ads .ads-top h2{
+	text-align:center;
+	margin-top:0.26rem;
+	font-size:0.3rem;
+	width:1.78rem;
+	background:#666;
+	border-radius: 0 0.2rem 0.2rem 0 ;
+}
+.index-content .ads .ads-bottom h2{
+	text-align:center;
+	margin-top:0.22rem;
+	font-size:0.3rem;
+	width:1.78rem;
+}
+.index-content .ads p{
+	margin-left:10px;
+	font-size:0.24rem;
+	line-height:0.35rem;
+	margin-top:0.05rem;
+}
+/*留学目的地*/
+.index-content .country{
+	width:7.5rem;
+	height: 5.2rem;
+	/*border-bottom:30px solid #F5F5F5;*/
+	margin:0 auto;
+	text-align: center;
+}
+.index-content .country .country-title{
+	height:0.85rem;
+	line-height:0.85rem;
+	overflow: hidden;
+	border-bottom: 0.01rem solid #eee;
+}
+.index-content  .title{
+	padding-left:0.44rem;
+	font-size:0.35rem;
+	text-align: left;
+	height: 0.85rem;
+	line-height: 0.85rem;
+	float:left;
+	margin-left: 0.2rem;
+}
+.index-content  .country .title1{
+	background:url(../images/icon1.png) no-repeat left;
+	background-size: 0.44rem 0.4rem;
+}
+/*在线咨询*/
+.index-content  .ask{
+	height:0.85rem;
+	background: url(../images/ico_btn9.png) no-repeat left center;
+	background-size:0.31rem 0.26rem ;
+	float:right;
+	padding-left:0.35rem;
+	color:#fe4d3c;
+	font-size:0.26rem;
+	line-height: 0.85rem;
+	padding-right: 0.2rem;
+	
+}
+.index-content .country .country-top,.country-bottom{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 0.42rem;
+}
+.index-content .country  img{
+	width:1.2rem;
+}
+/*留学目的地之小点点*/
+.index-content .country .container2{
+	height:4.3rem;
+}
+.index-content .country .pagination2{
+	bottom: 0.1rem;
+}
+/*热门留学院校*/
+.index-content .school{
+	width:7.5rem;
+	margin:0 auto;
+	border-top: 0.3rem solid #F5F5F5;;
+	
+}
+.index-content .school .school-title{
+	overflow: hidden;
+}
+
+.index-content  .school .title2{
+	background:url(../images/icon2.png) no-repeat left;
+	background-size: 0.44rem 0.4rem;
+}
+.index-content .school .school-place .place-ul{
+	width:7.26rem;	
+	height:0.88rem;
+	margin:0 auto;
+	position: relative;
+}
+.index-content .school .school-place .place-ul>li{
+	width:20%;
+	height: 0.88rem;
+	line-height: 0.88rem;
+	text-align: center;
+	float:left;
+	font-size: 0.35rem;
+	border-bottom: 0.01rem solid #eee ;
+	
+	
+}
+.index-content .school .school-place .place-ul>li:after{
+	content: "";
+	clear:both;
+	visibility: hidden;
+	overflow: hidden;
+}
+.index-content .school .school-place .slide {
+    width: 7.5rem;
+    padding: .2rem;
+    box-sizing: border-box;
+    font-size: 0.26rem;
+    border-bottom: 0.01rem solid #eee;
+}
+
+
+.index-content .school .school-place .slide div:last-child{
+	font-size: 0.26rem;
+	margin-top: 0.05rem;
+	color: #bbb;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-top: 0.15rem;
+}
+.index-content .school .school-place .slide span{
+	display: inline-block;
+	height:0.3rem;
+	line-height: 0.3rem;
+	font-size: 0.3rem;
+	text-align: center;
+	padding: 0.02rem;
+}
+.index-content .school .school-place .slide span:first-child{
+	width: 0.3rem;
+	background: #fe4d37;
+	color:#fff;
+	border-radius: 0.04rem;
+	margin-right:0.05rem;
+}
+.index-content .school .school-place .slide span:nth-child(2){
+	font-size: 0.35rem;
+	margin-top:0.05rem;
+}
+.index-content .school .school-place .slide span:last-child{
+	width: 0.9rem;
+	border: 1px solid green;
+	border-radius: 0.04rem;
+	margin-left:0.05rem;
+}
+.index-content .school .school-place .slide li:not(:last-child){
+	height:1.18rem;
+}
+/*加载更多*/
+.index-content .school .school-place .clickMore{
+	width: 6.8rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 0.08rem;
+	border: 1px solid #ccc;
+}
+.index-content .test{
+	width:7.5rem;
+	height:1.45rem;
+	margin: 0 auto;
+	border-top: 0.3rem solid #F5F5F5;
+	border-bottom: 0.3rem solid #F5F5F5;
+	display: flex;
+}
+.index-content .test section{
+	text-align: center;
+	width:3.96rem;
+	height:1.75rem;
+	font-size: 0.3rem;
+	color: #fff;
+	line-height: 0.8rem;
+}
+.index-content .test section h2{
+	
+	font-size:0.4rem;
+}
+.index-content .test section:first-child{
+	background: url(../images/back_btn1.png) no-repeat center;
+	background-size: 3.76rem 1.75rem;
+}
+.index-content .test section:last-child{
+	background: url(../images/back_btn2.png) no-repeat center;
+	background-size: 3.76rem 1.75rem;
+}
+.index-content  .project{
+	width:7.5rem;
+	margin: 0 auto;
+}
+.index-content  .project .project-title{
+	width:7.35rem;
+	height: 0.85rem;
+	background:url(../images/xiala_icon1.png) no-repeat right center;
+	background-size: 0.36rem 0.2rem;
+}
+.index-content  .project .title3{
+	background:url(../images/icon3.png) no-repeat left;
+				
+	background-size: 0.44rem 0.4rem;
+}
+
+.index-content  .project .project-down-ul{
+	overflow: hidden;
+	background: #f6f6f6;
+}
+.index-content  .project .project-down-ul li{
+	width:50%;
+	height:0.92rem;
+	line-height: 0.92rem;
+	font-size: 0.3rem;
+	float: left;
+	border-bottom: 1px solid #eee;
+}
+.index-content  .project .project-down-ul li span{
+	display: inline-block;
+	width:0.38rem;
+	height:0.38rem;
+	line-height: 0.38rem;
+	background: #fe4d37;
+	border-radius: 0.04rem;
+	vertical-align: middle;
+	color:#fff;
+	text-align: center;
+	margin-left: 0.24rem;
+	margin-right: 0.08rem;
+}
+.index-content  .project .project-ul{
+	border-top: 0.3rem solid #F5F5F5;
+	border-bottom: 0.3rem solid #F5F5F5;
+}
+.index-content  .project .project-ul ul{
+	margin-bottom: 0.2rem;
+}
+
+.index-content  .project .project-ul li{
+	width:7.06rem;
+	height: 0.85rem;
+	margin:0 auto;
+	line-height: 0.85rem;
+	font-size: 0.35rem;
+	text-align: left;
+	background: url(../images/ico_btn10.png)  no-repeat right;
+	background-size: 0.2rem 0.36rem;
+}
+.index-content  .project .project-ul li .ask{
+	padding-right: 0rem;
+}
+.index-content  .project .project-ul li:first-child{
+	box-sizing: border-box;
+	padding-left: 0.44rem;
+	background: url(../images/icon4.png) no-repeat left;
+	background-size: 0.4rem 0.44rem;
+}
+.index-content  .project .project-ul li:last-child{
+	background: none;
+	text-align: center;
+}
+.index-content  .project .project-ul li a{
+	display: block;
+	margin: 0 auto;
+	width:4.6rem;
+	height:0.7rem;
+	color:#ff7a00;
+	border: 1px solid #ff7a00;
+	border-radius: 0.04rem;
+}
+.index-content  .topic{
+	width:7.5rem;
+	margin: 0 auto;
+}
+.index-content  .topic .topic-title{
+	height: 0.85rem;
+	border-bottom: 0.01rem solid #eee;
+}
+.index-content  .topic .title4{
+	background:url(../images/icon5.png) no-repeat left;
+	background-size: 0.44rem 0.4rem;
+}
+.index-content  .topic .topic-content{
+	margin-top: 0.26rem;
+	height: 5rem;
+	color: #fff;
+	font-size: 0.36rem;
+	text-align: center;
+	border-bottom: 0.3rem solid #F5F5F5;
+}
+.index-content  .topic .topic-content .topic-img1{
+	width:2.9rem;
+	height: 2.9rem;
+	line-height: 0.8rem;
+	background: url(../images/index_img.jpg);
+	background-size: 2.9rem 2.9rem;
+}
+.index-content  .topic .topic-content .topic-img2{
+	width:4.14rem;
+	height: 1.36rem;
+	line-height: 0.6rem;
+	background: url(../images/index_img1.jpg);
+	background-size: 4.14rem 1.36rem;
+}
+.index-content  .topic .topic-content .topic-img3{
+	width:1.97rem;
+	height: 1.36rem;
+	line-height: 0.6rem;
+	background: url(../images/index_img2.jpg);
+	background-size: 1.97rem 1.36rem;
+}
+.index-content  .topic .topic-content .topic-img4{
+	width:1.97rem;
+	height: 1.36rem;
+	line-height: 0.6rem;
+	background: url(../images/index_img3.jpg);
+	background-size: 1.97rem 1.36rem;
+}
+.index-content  .topic .topic-content .topic-img5{
+	width:3.52rem;
+	height: 1.36rem;
+	line-height: 0.6rem;
+	background: url(../images/index_img4.jpg);
+	background-size: 3.53rem 1.36rem;
+}
+.index-content  .topic .topic-content .topic-img6{
+	width:3.52rem;
+	height: 1.36rem;
+	line-height: 0.6rem;
+	background: url(../images/index_img5.jpg);
+	background-size: 3.53rem 1.36rem;
+}
+.index-content  .topic .topic-content .topic-img-top{
+	display: flex;
+	justify-content: space-around;
+	
+}
+.index-content  .topic .topic-content .topic-img-top .top-right{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	
+}
+.index-content  .topic .topic-content .topic-img-top .top-right-2{
+	display: flex;
+	justify-content: space-between;
+	justify-content: row;
+}
+.index-content  .topic .topic-content .topic-img-bottom{
+	margin-top: 0.18rem;
+	display: flex;
+	justify-content: space-around;
+}
+.index-content .school51{
+	width: 7.5rem;
+	margin: 0 auto;
+	padding-bottom: 1.18rem;
+}
+.index-content .school51 .school51-title{
+	width: 7.5rem;
+	height:1.08rem;
+	line-height: 1.08rem;
+	font-size: 0.35rem;
+	margin: 0 auto;
+	text-align: center;
+	border-bottom: 0.01rem solid #ccc;
+}
+
+.index-content .school51 .school51-ul{
+	width:7.5rem;
+	height: 3.4rem;
+	border-bottom: 0.3rem solid #F5F5F5;
+}
+.index-content .school51 .school51-ul ul{
+	width: 7rem;
+	height: 3.4rem;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.index-content .school51 .school51-ul ul li{
+	box-sizing: border-box;
+	width:50%;
+	height: 50%;
+	line-height: 0.8rem;
+	float:left;
+	font-size: 0.3rem;
+	color: #8b8b8b;
+	padding-left: 1rem;
+}
+.index-content .school51 .school51-ul ul li:nth-child(1){
+	background: url(../images/ico_btn18.png) no-repeat left center;
+	background-size: 0.93rem 0.92rem;
+}
+.index-content .school51 .school51-ul ul li:nth-child(2){
+	background: url(../images/ico_btn19.png) no-repeat left center;
+	background-size: 0.93rem 0.92rem;
+}
+.index-content .school51 .school51-ul ul li:nth-child(3){
+	background: url(../images/ico_btn20.png) no-repeat left center;
+	background-size: 0.93rem 0.92rem;
+}
+.index-content .school51 .school51-ul ul li:nth-child(4){
+	background: url(../images/ico_btn21.png) no-repeat left center;
+	background-size: 0.93rem 0.92rem;
+}
+.index-content .school51 .school51-ul ul li h2{
+	font-size: 0.4rem;
+	color: #fe3c24;
+}
+.footer .nav{
+	width: 7.5rem;
+	margin: 0 auto;
+	position: fixed;
+	bottom: 0rem;
+	left:50%;
+	margin-left: -3.75rem;
+	z-index: 998;
+	background: #fff;
+}
+.footer .nav .nav-ul{
+	width: 7.5rem;
+	height: 1.18rem;
+	line-height: 0.5rem;
+	font-size: 0.25rem;
+	text-align: center;
+	color:#adadad;
+	overflow: hidden;
+	margin:0 auto;
+	
+}
+.footer .nav .nav-ul li{
+	width:25%;
+	float:left;
+	padding-top: 0.1rem;
+}
+
+.footer .nav .nav-ul li i{
+	font-size: 0.5rem;
+}
+/*.footer .nav .nav-ul li:first-child{
+	color: #fe3c24;
+}*/
+.footer .nav .nav-ul .online{
+	position: relative;
+}
+.footer .nav .nav-ul .online:after{
+	content: "1";
+	text-align: center;
+	line-height: 0.3rem;
+	width: 0.3rem;
+	height:0.3rem;
+	border-radius: 50%;
+	background-color: #fe3c24;
+	color: #fff;
+	position: absolute;
+	top:-0.6rem;
+	left:50%;
+	margin-left: 0.1rem;
+}
+
+
+/*优选留学方案显示下拉*/
+.block{
+	display: block;
+}
+/* 指纹点击 */
+.finger{
+	width: 100%;
+	z-index: 999;
+	position: fixed;
+	left: 0.1rem;
+	bottom: 1rem;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.finger .fg{
+	width: 1.06rem;
+	
+}
+
+ /* 页面加载时几个图标显示状态 */
+ .fg-img {
+ 	width: 0.77rem;
+ 	height: 0.77rem;
+ 	position: absolute;
+ 	z-index: -1;
+ 	left: 0.13rem;
+	bottom: 0.15rem; 
+ }

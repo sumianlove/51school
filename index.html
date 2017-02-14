@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="applicable-device" content="mobile" />
+    <!-- 移动端 浏览器中页面将以原始大小显示，不允许缩放 -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <!-- iphone会把一串数字识别为电话号码，点击的时候会提示是否呼叫，屏蔽这功能则把telephone设置为no -->
+    <meta content="telephone=no" name="format-detection" />
+    <!-- iphone的私有标签，默认值为default（白色），可以定为black（黑色）和black-translucent（灰色半透明） -->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <!-- iphone设备的是有标签 允许全屏模式浏览，隐藏浏览器导航栏 -->
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <!-- 全屏显示 -->
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <!-- UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!-- QQ强制全屏 -->
+    <meta name="x5-fullscreen" content="true">
+    <!-- 屏蔽百度转码 -->
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <title>名校无忧手机端</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/icon-font/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/jquery-1.9.0.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <!--自定义-->
+    <script type="text/javascript" src="js/js.js"></script>
+</head>
+
+<body>
+    <!-- 自动跳转的页面 -->
+
+
+
+    <!-- 指纹点击 -->
+    <section class="finger">
+        <img src="images/ico_btn22.png" class="fg">
+        <img src="images/ico-zw-1.png" class="fg-img fg-img1">
+        <img src="images/ico-zw-2.png" class="fg-img fg-img2">
+        <img src="images/ico-zw-3.png" class="fg-img fg-img3">
+        <img src="images/ico-zw-4.png" class="fg-img fg-img4">
+        <img src="images/ico-zw-5.png" class="fg-img fg-img5">
+       
+    </section>
+    <!-- 侧边栏 -->
+    <section class="aside">
+        <ul class="asidasie-ul">
+            <li><a href="">群体</a></li>
+            <li><a href="">国家</a></li>
+            <li><a href="">方案</a></li>
+            <li><a href="">服务</a></li>
+        </ul>
+    </section>
+    <section class="autoplay none">
+        <img src="images/back_btn3.png">
+        <img src="images/ico_btn25.png" class="closeAuto">
+    </section>
+    <section class="slide_left">
+        <!--头部-->
+        <header class="public-header">
+            <section class="header-top">
+                <!--logo-->
+                <section class="logo">
+                    <img src="images/logo.png" alt="" />
+                </section>
+                <section class="right">
+                    <!--电话图标-->
+                    <img src="images/ico_btn1.png" id="phone" />
+                    <!--设置图标-->
+                    <img src="images/ico_btn2_hov.png" id="setting" />
+                    <img src="images/ico_btn2.png" id="close" class="none" />
+                </section>
+            </section>
+            <!--banner-->
+            <section class="public-banner">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/banner.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/banner.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/banner.jpg" />
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <!--<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>-->
+                </div>
+            </section>
+        </header>
+        <!--导航条-->
+        <nav class="public-nav">
+            <section class="nav">
+                <a href="">
+                    <img src="images/ico_btn3.png" />
+                    <p>选国家</p>
+                </a>
+            </section>
+            <section class="nav">
+                <a href="">
+                    <img src="images/ico_btn4.png" />
+                    <p>挑大学</p>
+                </a>
+            </section>
+            <section class="nav">
+                <a href="">
+                    <img src="images/ico_btn5.png" />
+                    <p>找方案</p>
+                </a>
+            </section>
+            <section class="nav">
+                <a href="">
+                    <img src="images/ico_btn6.png" />
+                    <p>查排名</p>
+                </a>
+            </section>
+            <section class="nav">
+                <a href="">
+                    <img src="images/ico_btn7.png" />
+                    <p>测录取</p>
+                </a>
+            </section>
+   
+    </nav>
+    <article class="index-content">
+        <!-- 头条 -->
+        <section class="news-wrapper">
+            <img src="images/text_btn1.png" alt="" />
+            <ul class="news">
+                <li>
+                    <a href="#">1美国纽约大学金融数学硕士专业的申请</a>
+                </li>
+                <li>
+                    <a href="#">2美国纽约大学金融数学硕士专业的申请</a>
+                </li>
+                <li>
+                    <a href="#">3美国纽约大学金融数学硕士专业的申请</a>
+                </li>
+            </ul>
+        </section>
+        <section class="ads">
+            <section class="ads-top">
+                <section id="ad0">
+                    <h2>我是高中生</h2>
+                    <p>放眼全球报</p>
+                    <p>成就更优秀的自己</p>
+                </section>
+                <section id="ad1">
+                    <h2>我是高中生</h2>
+                    <p>放眼全球报</p>
+                    <p>成就更优秀的自己</p>
+                </section>
+                <section id="ad2">
+                    <h2>我是高中生</h2>
+                    <p>放眼全球报</p>
+                    <p>成就更优秀的自己</p>
+                </section>
+            </section>
+            <section class="ads-bottom">
+                <section id="ad3">
+                    <h2>我是高中生</h2>
+                    <p>放眼全球报</p>
+                    <p>成就更优秀的自己</p>
+                </section>
+                <section id="ad4">
+                    <h2>我是高中生</h2>
+                    <p>放眼全球报</p>
+                    <p>成就更优秀的自己</p>
+                </section>
+            </section>
+        </section>
+        <section class="country">
+            <section class="country-title">
+                <h2 class="title title1">留学目的地</h2>
+                <section class="ask">在线咨询</section>
+            </section>
+            <div class="swiper-container container2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <section class="country-top">
+                            <section id="america">
+                                <img src="images/national-1.png" />
+                                <p>美国</p>
+                            </section>
+                            <section id="america">
+                                <img src="images/national-2.png" />
+                                <p>英国</p>
+                            </section>
+                            <section id="america">
+                                <img src="images/national-3.png" />
+                                <p>澳洲</p>
+                            </section>
+                            <section id="america">
+                                <img src="images/national-4.png" />
+                                <p>加拿大</p>
+                            </section>
+                        </section>
+                        <section class="country-bottom">
+                            <section id="america">
+                                <img src="images/national-5.png" />
+                                <p>韩国</p>
+                            </section>
+                            <section id="america">
+                                <img src="images/national-6.png" />
+                                <p>德国</p>
+                            </section>
+                            <section id="america">
+                                <img src="images/national-7.png" />
+                                <p>法国</p>
+                            </section>
+                            <section id="america">
+                                <img src="images/national-8.png" />
+                                <p>西班牙</p>
+                            </section>
+                        </section>
+                    </div>
+                    <div class="swiper-slide">
+                        <section class="country-top">
+                            <section id="america">
+                                <img src="images/national-1.png" />
+                                <p>美国</p>
+                            </section>
+                            <section id="america">
+                                <img src="images/national-2.png" />
+                                <p>美国</p>
+                            </section>
+                            <section id="america">
+                                <img src="images/national-3.png" />
+                                <p>美国</p>
+                            </section>
+                            <section id="america">
+                                <img src="images/national-4.png" />
+                                <p>美国</p>
+                            </section>
+                        </section>
+                        <section class="country-bottom">
+                            <section id="america">
+                                <img src="images/national-5.png" />
+                                <p>美国</p>
+                            </section>
+                            <section id="america">
+                                <img src="images/national-6.png" />
+                                <p>美国</p>
+                            </section>
+                            <section id="america">
+                                <img src="images/national-7.png" />
+                                <p>美国</p>
+                            </section>
+                            <section id="america">
+                                <img src="images/national-8.png" />
+                                <p>美国</p>
+                            </section>
+                        </section>
+                    </div>
+                </div>
+                <div class="swiper-pagination pagination2"></div>
+            </div>
+        </section>
+        <!-- 热门留学院校 -->
+        <section class="school">
+            <section class="school-title">
+                <h2 class="title title2">热门留学院校</h2>
+                <section class="ask">择校咨询</section>
+            </section>
+            <!-- 切换地区 -->
+            <section class="school-place">
+                <ul class="place-ul">
+                    <li id="first-place">北京地区</li>
+                    <li>华东地区</li>
+                    <li>华南地区</li>
+                    <li>西南地区</li>
+                    <li>东北地区</li>
+                </ul>
+                <section class="foo">
+                    <section class="slide">
+                        <ul>
+                            <li>
+                                <div><span>热</span><span>1清华大学加拿大留学班</span><span>报名中</span></div>
+                                <div>美国/日本/加拿大/英国/韩国/加拿大/俄国/澳大利亚/西班牙等其他国家</div>
+                            </li>
+                            <li>
+                                <div><span>热</span><span>1清华大学加拿大留学班</span><span>报名中</span></div>
+                                <div>美国/日本/加拿大/英国/韩国/加拿大/俄国/澳大利亚/西班牙等其他国家</div>
+                            </li>
+                            <li>
+                                <div><span>热</span><span>1清华大学加拿大留学班</span><span>报名中</span></div>
+                                <div>美国/日本/加拿大/英国/韩国/加拿大/俄国/澳大利亚/西班牙等其他国家</div>
+                            </li>
+                            <li class="show">
+                                <div><span>热</span><span>1清华大学加拿大留学班</span><span>报名中</span></div>
+                                <div>美国/日本/加拿大/英国/韩国/加拿大/俄国/澳大利亚/西班牙等其他国家</div>
+                            </li>
+                            <li>
+                                <div class="clickMore">点击加载更多</div>
+                            </li>
+                        </ul>
+                        
+                       
+                    </section>
+                    <section class="slide">
+                          <ul>
+                            <li>
+                                <div><span>热</span><span>2清华大学加拿大留学班</span><span>报名中</span></div>
+                                <div>美国/日本/加拿大/英国/韩国/加拿大/俄国/澳大利亚/西班牙等其他国家</div>
+                            </li>
+                            <li>
+                                <div><span>热</span><span>2清华大学加拿大留学班</span><span>报名中</span></div>
+                                <div>美国/日本/加拿大/英国/韩国/加拿大/俄国/澳大利亚/西班牙等其他国家</div>
+                            </li>
+                            <li>
+                                <div><span>热</span><span>2清华大学加拿大留学班</span><span>报名中</span></div>
+                                <div>美国/日本/加拿大/英国/韩国/加拿大/俄国/澳大利亚/西班牙等其他国家</div>
+                            </li>
+                            <li class="show">
+                                <div><span>热</span><span>2清华大学加拿大留学班</span><span>报名中</span></div>
+                                <div>美国/日本/加拿大/英国/韩国/加拿大/俄国/澳大利亚/西班牙等其他国家</div>
+                            </li>
+                            <li>
+                                <div class="clickMore">点击加载更多</div>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="slide">
+                          <ul>
+                            <li>
+                                <div><span>热</span><span>3清华大学加拿大留学班</span><span>报名中</span></div>
+                                <div>美国/日本/加拿大/英国/韩国/加拿大/俄国/澳大利亚/西班牙等其他国家</div>
+                            </li>
+                            <li>
+                                <div><span>热</span><span>3清华大学加拿大留学班</span><span>报名中</span></div>
+                                <div>美国/日本/加拿大/英国/韩国/加拿大/俄国/澳大利亚/西班牙等其他国家</div>
+                            </li>
+                            <li>
+                                <div><span>热</span><span>3清华大学加拿大留学班</span><span>报名中</span></div>
+                                <div>美国/日本/加拿大/英国/韩国/加拿大/俄国/澳大利亚/西班牙等其他国家</div>
+                            </li>
+                            <li class="show">
+                                <div><span>热</span><span>3清华大学加拿大留学班</span><span>报名中</span></div>
+                                <div>美国/日本/加拿大/英国/韩国/加拿大/俄国/澳大利亚/西班牙等其他国家</div>
+                            </li>
+                            <li>
+                                <div class="clickMore">点击加载更多</div>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="slide">
+                          <ul>
+                            <li>
+                                <div><span>热</span><span>4清华大学加拿大留学班</span><span>报名中</span></div>
+                                <div>美国/日本/加拿大/英国/韩国/加拿大/俄国/澳大利亚/西班牙等其他国家</div>
+                            </li>
+                            <li>
+                                <div><span>热</span><span>4清华大学加拿大留学班</span><span>报名中</span></div>
+                                <div>美国/日本/加拿大/英国/韩国/加拿大/俄国/澳大利亚/西班牙等其他国家</div>
+                            </li>
+                            <li>
+                                <div><span>热</span><span>4清华大学加拿大留学班</span><span>报名中</span></div>
+                                <div>美国/日本/加拿大/英国/韩国/加拿大/俄国/澳大利亚/西班牙等其他国家</div>
+                            </li>
+                            <li class="show">
+                                <div><span>热</span><span>4清华大学加拿大留学班</span><span>报名中</span></div>
+                                <div>美国/日本/加拿大/英国/韩国/加拿大/俄国/澳大利亚/西班牙等其他国家</div>
+                            </li>
+                            <li>
+                                <div class="clickMore">点击加载更多</div>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="slide none">
+                          <ul>
+                            <li>
+                                <div><span>热</span><span>5清华大学加拿大留学班</span><span>报名中</span></div>
+                                <div>美国/日本/加拿大/英国/韩国/加拿大/俄国/澳大利亚/西班牙等其他国家</div>
+                            </li>
+                            <li>
+                                <div><span>热</span><span>5清华大学加拿大留学班</span><span>报名中</span></div>
+                                <div>美国/日本/加拿大/英国/韩国/加拿大/俄国/澳大利亚/西班牙等其他国家</div>
+                            </li>
+                            <li>
+                                <div><span>热</span><span>5清华大学加拿大留学班</span><span>报名中</span></div>
+                                <div>美国/日本/加拿大/英国/韩国/加拿大/俄国/澳大利亚/西班牙等其他国家</div>
+                            </li>
+                            <li class="show">
+                                <div><span>热</span><span>5清华大学加拿大留学班</span><span>报名中</span></div>
+                                <div>美国/日本/加拿大/英国/韩国/加拿大/俄国/澳大利亚/西班牙等其他国家</div>
+                            </li>
+                            <li>
+                                <div class="clickMore">点击加载更多</div>
+                            </li>
+                        </ul>
+                    </section>
+                  
+                    
+                </section>
+            </section>
+        </section>
+        <section class="test">
+            <section>
+                <h2>智能选校</h2>
+                <p>打造最佳留学方案</p>
+            </section>
+            <section>
+                <h2>智能选校</h2>
+                <p>打造最佳留学方案</p>
+            </section>
+        </section>
+        <section class="project">
+            <section class="project-title">
+                <h2 class="title title3">优选留学方案</h2>
+            </section>
+            <section class="project-down none">
+                <ul class="project-down-ul ">
+                    <li><span>优</span>双录取留学</li>
+                    <li><span>优</span>双录取留学</li>
+                    <li><span>优</span>双录取留学</li>
+                    <li><span>优</span>双录取留学</li>
+                    <li><span>优</span>双录取留学</li>
+                    <li><span>优</span>双录取留学</li>
+                    <li><span>优</span>双录取留学</li>
+                    <li><span>优</span>双录取留学</li>
+                </ul>
+            </section>
+            <section class="project-ul">
+                <ul>
+                    <li>高考留学&高中生留学必看
+                        <section class="ask">专家咨询</section>
+                    </li>
+                    <li>1高考留学&高中生留学必看</li>
+                    <li>2高考留学&高中生留学必看</li>
+                    <li>3高考留学&高中生留学必看</li>
+                    <li>4高考留学&高中生留学必看</li>
+                    <li class="show2">5高考留学&高中生留学必看</li>
+                    <li class="show2">6高考留学&高中生留学必看</li>
+                    <li>
+                        <a class="loadmore">点击加载更多</a>
+                    </li>
+                </ul>
+            </section>
+        </section>
+        <section class="topic">
+            <section class="topic-title">
+                <h2 class="title title4">留学精彩专题</h2>
+                <section class="ask">专家咨询</section>
+            </section>
+            <section class="topic-content">
+                <section class="topic-img-top">
+                    <section class="topic-img1">
+                        高中生定制留学
+                    </section>
+                    <section class="top-right">
+                        <section class="topic-img2">
+                            高中生定制留学
+                        </section>
+                        <section class="top-right-2">
+                            <section class="topic-img3">
+                                高中生定制留学
+                            </section>
+                            <section class="topic-img4">
+                                高中生定制留学
+                            </section>
+                        </section>
+                    </section>
+                </section>
+                <section class="topic-img-bottom">
+                    <section class="topic-img5">
+                        高中生定制留学
+                    </section>
+                    <section class="topic-img6">
+                        高中生定制留学
+                    </section>
+                </section>
+            </section>
+        </section>
+        <section class="school51">
+            <section class="school51-title">
+                留学无忧&nbsp;人人都是名校生
+            </section>
+            <section class="school51-ul">
+                <ul>
+                    <li>
+                        <h2>10+</h2>
+                        <p>11届名校留学展</p>
+                    </li>
+                    <li>
+                        <h2>150+</h2>
+                        <p>11届名校留学展</p>
+                    </li>
+                    <li>
+                        <h2>21566+</h2>
+                        <p>11届名校留学展</p>
+                    </li>
+                    <li>
+                        <h2>100%</h2>
+                        <p>11届名校留学展</p>
+                    </li>
+                </ul>
+            </section>
+        </section>
+    </article>
+    </section>
+    <footer class="footer">
+        <nav class="nav">
+            <ul class="nav-ul">
+                <li>
+                    <div><i class="iconfont icon-icon-home-default"></i></div>
+                    <div>网站首页</div>
+                </li>
+                <li>
+                    <div><i class="iconfont icon-dianhua"></i></i>
+                    </div>
+                    <div>立即通话</div>
+                </li>
+                <li>
+                    <div><i class="iconfont icon-weixin"></i></div>
+                    <div class="online">在线咨询</div>
+                </li>
+                <li>
+                    <div><i class="iconfont icon-9yijianfankui"></i></div>
+                    <div>录取测试</div>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
